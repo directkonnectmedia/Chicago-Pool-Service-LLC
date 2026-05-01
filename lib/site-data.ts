@@ -6,8 +6,8 @@ export const COMPANY = {
   area: "Greater Chicago & surrounding communities",
 } as const;
 
-/** Badge logo — source: `photos/Screenshot 2026-05-01 115235.png` */
-export const COMPANY_LOGO_SRC = "/logo-chicago-pool-services.png";
+/** Badge logo — transparent PNG in `public/` (re-run `npm run logo:knockout-white` after replacing source). */
+export const COMPANY_LOGO_SRC = "/logo-chicago-pool-services.png?v=nobg";
 
 export type ServiceSlide = {
   id: string;
