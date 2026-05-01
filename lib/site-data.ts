@@ -42,9 +42,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Tile replacement & new tile",
     description:
       "Refresh waterlines and coping with durable new tile tailored to your style.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80",
-    imageAlt: "Pool waterline tile detail",
+    imageUrl: "/services-pool-tile.jpg",
+    imageAlt:
+      "Decorative square waterline tiles along pool and bubbling spa water in sunlight",
   },
   {
     id: "pebble",
