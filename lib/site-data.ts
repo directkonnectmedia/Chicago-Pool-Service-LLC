@@ -20,15 +20,6 @@ export type ServiceSlide = {
 /** Unsplash photos — swap URLs in /public or replace with your own assets anytime */
 export const SERVICE_SLIDES: ServiceSlide[] = [
   {
-    id: "wall-maintenance",
-    title: "Wall maintenance & cleaning",
-    description:
-      "Meticulous tile and shell cleaning so your pool sparkles season after season.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=1200&q=80",
-    imageAlt: "Crystal-clear swimming pool water",
-  },
-  {
     id: "general-maintenance",
     title: "General pool maintenance",
     description:
@@ -54,15 +45,6 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     imageUrl:
       "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80",
     imageAlt: "Pool waterline tile detail",
-  },
-  {
-    id: "mosaic",
-    title: "Mosaic tile artistry",
-    description:
-      "Custom mosaic accents that turn your pool into a one-of-a-kind centerpiece.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-    imageAlt: "Upscale poolside lounge",
   },
   {
     id: "pebble",
