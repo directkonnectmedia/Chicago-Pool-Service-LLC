@@ -147,17 +147,17 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "com-1",
     category: "Commercial",
     title: "Resort-style commercial",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=900&q=80",
-    imageAlt: "Commercial pool facility",
+    imageUrl: "/gallery-commercial-pool-pexels.jpg",
+    imageAlt:
+      "Bright outdoor swimming pool with ladder, stone deck, and blue water on a sunny day",
   },
   {
     id: "com-2",
     category: "Commercial",
     title: "Community centerpiece",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=900&q=80",
-    imageAlt: "Large commercial pool",
+    imageUrl: "/gallery-commercial-pool-pexels.jpg",
+    imageAlt:
+      "Outdoor pool with stainless ladder, coping, and trees under clear sky",
   },
   {
     id: "deck-1",
