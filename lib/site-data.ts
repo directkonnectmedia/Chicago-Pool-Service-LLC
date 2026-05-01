@@ -69,9 +69,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Pool decks",
     description:
       "Travertine, cool deck textures, and color palettes built around your vision.",
-    imageUrl: "/gallery-pool-deck-curtis-adams.jpg",
+    imageUrl: "/deck-stone-pavers-pexels.jpg",
     imageAlt:
-      "Luxury backyard pool and spa with grey stone patio, lounge chairs, sun sails, and string lights",
+      "Rectangle pool with herringbone stone pavers, lounge chairs, and coastal homes beyond white fence",
   },
   {
     id: "custom",
