@@ -60,9 +60,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Equipment & circulation",
     description:
       "Filters, pumps, lights, skimmers, vacuums — service and complete replacements.",
-    imageUrl: "/services-equipment-haberdoedas.jpg",
+    imageUrl: "/services-pool-filter-equipment.jpg",
     imageAlt:
-      "Pump and metering equipment with hoses mounted on a tank, outdoor installation",
+      "Outdoor pool sand filter, pump, and PVC plumbing on concrete pad beside fence",
   },
   {
     id: "decks",
