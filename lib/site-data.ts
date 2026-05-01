@@ -69,7 +69,7 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Pool decks",
     description:
       "Travertine, cool deck textures, and color palettes built around your vision.",
-    imageUrl: "/gallery-deck-curtis-adams-pexels.jpg",
+    imageUrl: "/gallery-pool-deck-curtis-adams.jpg",
     imageAlt:
       "Luxury backyard pool and spa with grey stone patio, lounge chairs, sun sails, and string lights",
   },
@@ -153,9 +153,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "deck-2",
     category: "Pool decks",
     title: "Cool deck palette",
-    imageUrl: "/gallery-deck-curtis-adams-pexels.jpg",
+    imageUrl: "/gallery-pool-deck-curtis-adams.jpg",
     imageAlt:
-      "Backyard pool and hot tub with stone patio, lounge chairs, sun sails, and bar seating",
+      "Modern backyard with blue pool, circular spa, stamped grey patio, lounge chairs, sun sails, and string lights",
   },
 ];
 
