@@ -78,9 +78,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Custom work",
     description:
       "Whatever you envision for refinishing and resurfacing — we make it real.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80",
-    imageAlt: "Designer swimming pool",
+    imageUrl: "/services-custom-pool-lights.jpg",
+    imageAlt:
+      "Nighttime pool and spa with vivid blue underwater lights and stainless ladder rails",
   },
 ];
 
