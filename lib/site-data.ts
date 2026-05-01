@@ -113,9 +113,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "res-2",
     category: "Residential",
     title: "Sunlit backyard pool",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80",
-    imageAlt: "Beautiful backyard pool",
+    imageUrl: "/gallery-sunlit-backyard-pool.jpeg",
+    imageAlt:
+      "Elevated view of rectangular pool with tan tile patio, play area, trees, and loungers",
   },
   {
     id: "res-3",
