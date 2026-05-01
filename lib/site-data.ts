@@ -153,9 +153,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "deck-2",
     category: "Pool decks",
     title: "Cool deck palette",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=900&q=80",
-    imageAlt: "Textured pool deck",
+    imageUrl: "/gallery-deck-curtis-adams-pexels.jpg",
+    imageAlt:
+      "Backyard pool and hot tub with stone patio, lounge chairs, sun sails, and bar seating",
   },
 ];
 
