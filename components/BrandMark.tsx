@@ -1,5 +1,5 @@
-import { COMPANY } from "@/lib/site-data";
-import { AnimatedLogo } from "./AnimatedLogo";
+import Image from "next/image";
+import { COMPANY, COMPANY_LOGO_SRC } from "@/lib/site-data";
 
 type Props = {
   variant?: "header" | "hero";
@@ -8,13 +8,33 @@ type Props = {
 
 export function BrandMark({ variant = "header", className = "" }: Props) {
   const isHero = variant === "hero";
-  const logoSize = isHero ? 112 : 52;
 
   return (
     <div
       className={`flex items-center gap-3 ${isHero ? "flex-col sm:flex-row sm:gap-5" : ""} ${className}`}
     >
-      <AnimatedLogo size={logoSize} />
+      <div
+        className={`relative shrink-0 overflow-visible drop-shadow-lg ${
+          isHero
+            ? "h-[8.5rem] w-[11rem] sm:h-[10rem] sm:w-[13rem]"
+            : "h-14 w-[5.25rem] sm:h-16 sm:w-24"
+        }`}
+      >
+        <Image
+          src={COMPANY_LOGO_SRC}
+          alt=""
+          role="presentation"
+          fill
+          priority
+          sizes={
+            isHero
+              ? "(max-width: 640px) 176px, 208px"
+              : "(max-width: 640px) 84px, 96px"
+          }
+          unoptimized
+          className="object-contain object-left"
+        />
+      </div>
       <div className={`min-w-0 text-center ${isHero ? "sm:text-left" : ""}`}>
         <p
           className={`font-semibold tracking-tight text-white drop-shadow-md ${
