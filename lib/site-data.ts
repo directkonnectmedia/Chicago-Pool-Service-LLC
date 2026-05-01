@@ -33,9 +33,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Replastering & refinishing",
     description:
       "Bring worn interiors back to life with premium plaster and expert craftsmanship.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80",
-    imageAlt: "Modern pool design",
+    imageUrl: "/services-replaster-pool.jpg",
+    imageAlt:
+      "Overhead view of guest in straw hat sitting on pool edge above turquoise water",
   },
   {
     id: "tile",
