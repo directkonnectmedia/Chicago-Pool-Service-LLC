@@ -24,9 +24,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "General pool maintenance",
     description:
       "Balanced chemistry, equipment checks, and routine care you can depend on.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-    imageAlt: "Luxury backyard pool",
+    imageUrl: "/services-general-maintenance-pexels.jpg",
+    imageAlt:
+      "Turquoise pool water with yellow rubber duck and blue skimmer net on wooden deck",
   },
   {
     id: "replaster",
