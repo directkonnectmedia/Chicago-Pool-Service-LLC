@@ -209,5 +209,5 @@ export const TESTIMONIALS = [
   },
 ] as const;
 
-export const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85";
+/** Hero background — synced from `photos/pool bg photo.jpeg` (published as `public/hero-section-pool.jpeg`). */
+export const HERO_IMAGE = "/hero-section-pool.jpeg";

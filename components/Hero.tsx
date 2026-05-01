@@ -12,11 +12,12 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 -z-10 flex items-center justify-center bg-slate-900">
         <Image
           src={HERO_IMAGE}
-          alt="Luxury swimming pool"
+          alt="Modern swimming pool with blue mosaic tile steps"
           fill
           priority
           sizes="100vw"
-          className="object-contain sm:object-cover object-center opacity-[0.92]"
+          unoptimized
+          className="object-cover object-center opacity-[0.92]"
         />
       </div>
       <div className="pointer-events-none absolute inset-0 -z-[5] bg-gradient-to-b from-slate-950/70 via-slate-950/45 to-slate-950/85" />
