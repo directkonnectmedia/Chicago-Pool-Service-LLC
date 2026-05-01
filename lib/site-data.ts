@@ -69,9 +69,9 @@ export const SERVICE_SLIDES: ServiceSlide[] = [
     title: "Pool decks",
     description:
       "Travertine, cool deck textures, and color palettes built around your vision.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-    imageAlt: "Stone pool deck",
+    imageUrl: "/deck-stone-pavers-pexels.jpg",
+    imageAlt:
+      "In-ground pool with stone paver decking in herringbone pattern and coastal backdrop",
   },
   {
     id: "custom",
@@ -145,9 +145,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "deck-1",
     category: "Pool decks",
     title: "Natural stone deck",
-    imageUrl:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&q=80",
-    imageAlt: "Stone pool decking",
+    imageUrl: "/deck-stone-pavers-pexels.jpg",
+    imageAlt:
+      "Stone paver pool deck around blue pool with spa section and lounge chairs",
   },
   {
     id: "deck-2",
